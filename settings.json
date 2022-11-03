@@ -1,0 +1,29 @@
+{
+    "alchemySettings": {
+        "apiKey": "WkAP_yn3id0cD7gPG23AgbOX5Op1Tjc8",
+        "network": "eth-mainnet"
+    },
+    "aggregators": {
+        "ETH/USD": {
+            "name": "ETH / USD",
+            "currency": "$",
+            "modifier": 1e-8,
+            "address": "0x37bC7498f4FF12C19678ee8fE19d713b87F6a9e6",
+            "contractABI": "./eth-usd-aggregator-abi.json"
+        },
+        "LINK/ETH": {
+            "name": "LINK / ETH",
+            "modifier": 1e-18,
+            "currency": "Ξ",
+            "address": "0xbba12740DE905707251525477bAD74985DeC46D2",
+            "contractABI": "./link-eth-aggregator-abi.json"
+        },
+        "USDT/ETH": {
+            "name": "USDT / ETH",
+            "modifier": 1e-18,
+            "currency": "Ξ",
+            "address": "0x7De0d6fce0C128395C488cb4Df667cdbfb35d7DE",
+            "contractABI": "./usdt-eth-aggregator-abi.json"
+        }
+    }
+}
